@@ -30,8 +30,7 @@ def main():
         host_used += '/api/v4'
 
     # run_config = RunConfig(options.key, options.secret, host_used)
-    run_config = RunConfig("a336a4eba98dea134be766978db81b4d",
-                    "2f84fa08520c65f019ff20b1f7bf0b1a8bb8447db4c33d7ed97ec22a00fd7bff", host_used)
+    run_config = RunConfig(host_used)
     spot_demo(run_config)
 
 if __name__ == '__main__':
